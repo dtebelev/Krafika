@@ -1,0 +1,28 @@
+{
+  "name": "projects/6139132077804554844",
+  "projectId": "6139132077804554844",
+  "title": "Крафика Центр Декора",
+  "visibility": "PRIVATE",
+  "createTime": "2026-05-22T20:00:00.000Z",
+  "updateTime": "2026-05-22T20:00:00.000Z",
+  "projectType": "PROJECT_DESIGN",
+  "origin": "STITCH",
+  "deviceType": "DESKTOP",
+  "designTheme": {
+    "colorMode": "LIGHT",
+    "font": "PLAYFAIR_DISPLAY",
+    "roundness": "SHARP",
+    "customColor": "#B89B64",
+    "saturation": 2
+  },
+  "screens": {
+    "index": {
+      "id": "index-screen-id",
+      "sourceScreen": "projects/6139132077804554844/screens/index-screen-id",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 5200
+    }
+  }
+}

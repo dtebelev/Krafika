@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-brand-bg: #EFEFEA;
+  --color-brand-secondary: #D5C7B7;
+  --color-brand-text: #1C1C1A;
+  --color-brand-gold: #B89B64;
+  --color-brand-navy: #132D42;
+}
+
+/* Custom global rules */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animate background and transitions */
+.transition-all-custom {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
